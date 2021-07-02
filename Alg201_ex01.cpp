@@ -40,8 +40,8 @@ int main() {
     }
 
     for (int i = 0; i <= c; i++) {
-        printf("%d ", a[i]);
+        printf("%d s", a[i]);
     }
 
-    return 0;
+    return 0; 
 }
