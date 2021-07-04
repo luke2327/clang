@@ -16,12 +16,12 @@ int main () {
 
     for (t = 0; t < 9; t++) {
         if (t < c) {
-            e = 9 - t;
+            e = 8 - t;
         } else {
-            e = t + 1;
+            e = t;
         }
 
-        for (j = 0; j < e; j++) {
+        for (j = 0; j <= e; j++) {
             q++;
 
             a[j][t] = q;
